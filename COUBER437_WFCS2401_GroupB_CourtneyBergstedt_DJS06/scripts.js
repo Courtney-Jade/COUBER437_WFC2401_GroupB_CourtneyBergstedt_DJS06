@@ -18,3 +18,11 @@ const products = [
 provinces.forEach(province => console.log(province));
 names.forEach(name => console.log(name));
 names.forEach((name, index) => console.log(`${name} (${provinces[index]})`));
+
+//Uppercase Transformation
+const uppercaseProvinces = provinces.map(province => province.toUpperCase());
+console.log(uppercaseProvinces);
+
+//Name length
+const nameLengths = names.map(name => name.length);
+console.log(nameLengths);
