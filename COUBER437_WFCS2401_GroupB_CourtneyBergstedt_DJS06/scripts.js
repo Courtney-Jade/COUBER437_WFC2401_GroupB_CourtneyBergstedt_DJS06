@@ -28,6 +28,10 @@ const nameLengths = names.map(name => name.length);
 console.log(nameLengths);
 
 
-// Exercise 5: Filtering Cape
+// Filtering Cape Provinces
 const filteredProvinces = provinces.filter(province => !province.includes('Cape'));
 console.log(filteredProvinces.length);
+
+//Finding Names with 'S'
+const containsS = names.map(name => name.includes('S'));
+console.log(containsS);
