@@ -26,3 +26,8 @@ console.log(uppercaseProvinces);
 //Name length
 const nameLengths = names.map(name => name.length);
 console.log(nameLengths);
+
+
+// Exercise 5: Filtering Cape
+const filteredProvinces = provinces.filter(province => !province.includes('Cape'));
+console.log(filteredProvinces.length);
